@@ -9,7 +9,7 @@ We have provided the datasets augmented with prompt-generated rationales. Just u
 Alternaltively, you can use the code for generating rationales `rationalization_prompting.py` to prepare the rationales for your own datasets. 
 
 ## Training
-Run the script `run.sh`. Change the `dataset` argument to specify the dataset for experiment. After training, the evaluation result is saved to `./checkpoint'`.
+Run the script `run.sh`. Change the `dataset` argument to specify the dataset for experiment. After training, the evaluation result is saved to `./checkpoint`.
 
 ## Citation
 ```
