@@ -1,5 +1,5 @@
 # PINTO  
-This is a Pytorch implementation for our recent work under review: 
+This is a Pytorch implementation for our ICLR 2023 paper: 
 Faithful Language Reasoning Using Prompt-Generated Rationales [[arxiv](https://arxiv.org/abs/2211.01562)].
 
 ## Prepare data
@@ -13,10 +13,12 @@ Run the script `run.sh`. Change the `dataset` argument to specify the dataset fo
 
 ## Citation
 ```
-@article{wang2022pinto,
-  title={PINTO: Faithful Language Reasoning Using Prompt-Generated Rationales},
-  author={Wang, Peifeng and Chan, Aaron and Ilievski, Filip and Chen, Muhao and Ren, Xiang},
-  journal={arXiv preprint arXiv:2211.01562},
-  year={2022}
+@inproceedings{
+wang2023pinto,
+title={{PINTO}: Faithful Language Reasoning Using Prompted-Generated Rationales},
+author={PeiFeng Wang and Aaron Chan and Filip Ilievski and Muhao Chen and Xiang Ren},
+booktitle={International Conference on Learning Representations},
+year={2023},
+url={https://openreview.net/forum?id=WBXbRs63oVu}
 }
 ```
